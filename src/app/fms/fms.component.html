@@ -1,0 +1,13 @@
+<p>FMS</p>
+
+<div>
+ <input type="number" [(ngModel)]="year"/>   
+<button (click)="getNoOfMatchesByYear()">Get No Of Matches</button>
+    <div>Total Matches:: {{totalMatches}}</div>
+</div>
+
+<div>
+    <input type="number"  [(ngModel)]="year1" />
+    <button (click) ="getDrawMatches()">Get DrawMatches</button>
+    <div>Draw Matches = {{drawMatches}}</div>
+</div>
